@@ -107,13 +107,13 @@ body {
 
 .aligned-text_center {
   align-self: center;
-  padding-left: 40px;
+  padding-left: 30px;
   padding-top: 20px;
 }
 
 .aligned-text_right {
   align-self: flex-end;
-  padding-top: 18px;
+  padding-top: 20px;
 }
 
 .aligned-text_right_no_space {
