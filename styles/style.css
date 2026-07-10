@@ -3,6 +3,8 @@ body {
     height: auto;
     border: 1px solid red;
 }
+/* блок header */
+
 
 .header {
     width: 100%;
@@ -62,3 +64,101 @@ body {
 .header__address {
 
 }
+
+
+
+
+/* блок cover */
+
+.cover {
+  position: relative;
+  width: 1100px;
+  height: 757px;
+  border: 1px solid red;
+  margin-bottom: 180px;
+  padding: 165px 50px 50px 50px;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: -2;
+  
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+  line-height: 115%;
+  letter-spacing: 30%;
+  text-transform: uppercase;
+
+}
+.aligned-text {
+
+}
+
+.aligned-text_left {
+  align-self: flex-start;
+  
+}
+
+.aligned-text_center {
+  align-self: center;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.aligned-text_right {
+  align-self: flex-end;
+  padding-top: 18px;
+}
+
+.aligned-text_right_no_space {
+  letter-spacing: 0;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 108px;
+  
+}
+
+.cover__description {
+
+}
+
+.cover__description-text {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  align-self: center;
+  word-spacing: 18px;
+}
+
+.bet-button {
+  font-size: 22px;
+  color: white;
+  background: none;
+  border: 1px solid white;
+  padding: 12px 32px 11px 31px;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: black;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+
+
+
+/* блок lots */
